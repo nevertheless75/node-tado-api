@@ -9,7 +9,7 @@ documentation and examples.
 # Example based on test.js
 
 ```
-var TadoApi = require('../node-tado-api').TadoApi;
+var TadoApi = require('node-tado-api').TadoApi;
 
 var tado = new TadoApi(u, p);
 tado.login().then(function (data){
