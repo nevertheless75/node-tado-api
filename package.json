@@ -1,14 +1,14 @@
 {
-  "name": "node-arlo-api",
+  "name": "node-tado-api",
   "version": "1.0.2",
-  "description": "NodeJS wrapper around Arlo event-based API.",
+  "description": "NodeJS wrapper around Tado web-app API.",
   "main": "app.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nevertheless75/node-arlo-api.git"
+    "url": "git+https://github.com/nevertheless75/node-tado-api.git"
   },
   "keywords": [
     "JavaScript",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/nevertheless75/node-tado-api#readme",
   "dependencies": {
     "debug": "^2.6.0",
+    "properties-reader": "0.0.16",
     "q": "^1.4.1",
     "simple-replace": "0.0.2"
   },

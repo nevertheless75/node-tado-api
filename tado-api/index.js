@@ -1,17 +1,9 @@
 "use strict";
 
 var request = require('request');
-var EventSource = require('EventSource'); // TODO
 var q = require('q');
-
-var dateFormat = require('dateformat');
-
 var debug = require('debug')('node-tado-api')
-
-var uuid = require('node-uuid');
 var replace = require('simple-replace');
-
-var eventStream;
 
 var CLIENT_ID = 'tado-web-app';
 var CLIENT_SECRET = 'wZaRN7rpjn3FoNyF5IFuxg9uMzYJcvOoQ8QWiIqS3hfk6gLhVlG57j5YNoZL2Rtc';
